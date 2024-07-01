@@ -1,0 +1,29 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+
+}
+
+#btns{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(241, 134, 170);
+    font-size: 20px;
+    padding: 12px;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.3s ease;
+
+}
+.btn:hover{
+    background-color: rgb(236, 3, 81);
+    transform: translateY(-8px);
+}

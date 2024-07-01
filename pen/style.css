@@ -1,0 +1,35 @@
+/* #calculator{
+    height: 400px;
+    width:240px;
+    background-color: rgb(68, 65, 65);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+    border: 5px solid rgb(68, 65, 65);
+    grid-template-areas: 
+    "input input input input"
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ;
+
+}
+
+#input {
+    border: 2px solid green;
+    width: 230px;
+    height: 59px;
+    background-color: black;
+    grid-area: input;
+
+}
+
+.buttons{
+    background-color: yellow;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+} */

@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+    font-family: sans-serif;
+}
+
+#btn{
+    padding: 20px 15px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 25px
+}
+
+.mylabel{
+    font-size: 50px;
+    padding-left: 15px;
+    
+}

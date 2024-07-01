@@ -1,0 +1,201 @@
+JavaScript Assignments for Days 1, 2, and 3
+Day 1: JavaScript Basics
+Assignment: Create a Simple Calculator
+
+Objective:
+Build a simple calculator that performs basic arithmetic operations.
+
+Requirements:
+
+Variables and Data Types:
+
+Declare variables for storing the current value, the operator, and the result using let and const.
+Use different data types like Numbers for calculations and Strings for displaying results.
+Basic Operators:
+
+Implement functions to handle addition, subtraction, multiplication, and division.
+Use arithmetic operators (+, -, *, /, %) within these functions.
+Tasks:
+
+Create an HTML form with two input fields for entering numbers and buttons for each arithmetic operation (Add, Subtract, Multiply, Divide).
+Write a function for each operation that takes the input values, performs the calculation, and displays the result.
+Use console.log to print intermediate steps and results for debugging.
+
+
+
+
+Day 2: Control Structures
+Assignment: Create a Grade Calculator
+
+Objective:
+Build a program that calculates and displays the grade based on a score input.
+
+Requirements:
+
+Conditionals:
+
+Use if, else if, and else statements to determine the grade based on the score.
+Implement a ternary operator to display a message based on the grade.
+Loops:
+
+Use a for loop to process an array of scores and calculate the average score.
+Use a while or do...while loop to allow multiple inputs until the user decides to stop.
+Tasks:
+
+Create an HTML form with an input field for the score and a button to submit.
+Write a function that takes the score as input and uses if-else statements to determine and display the grade (A, B, C, D, F).
+Create an array of scores and use a for loop to calculate and display the average score.
+Use a while loop to keep asking for scores until the user decides to stop (e.g., by entering a specific value like -1).
+
+
+
+Day 3: Functions
+Assignment: Create a To-Do List Application
+
+Objective:
+Build a simple to-do list application that allows users to add, remove, and mark tasks as completed.
+
+Requirements:
+
+Function Declaration and Expression:
+
+Use function declarations to create functions for adding, removing, and toggling tasks.
+Use function expressions to handle specific events like form submission.
+Arrow Functions:
+
+Use arrow functions for handling event listeners and array methods.
+Parameters and Arguments:
+
+Use default parameters for optional arguments in your functions.
+Use rest parameters to handle multiple tasks in a single function call.
+Tasks:
+
+Create an HTML form with an input field for the task and buttons for adding and removing tasks.
+Write functions to add tasks to an array, remove tasks from the array, and toggle the completion status of a task.
+Use forEach to iterate over the tasks and display them in an ordered list.
+Use event listeners with arrow functions to handle form submissions and button clicks.
+Add some basic styling to distinguish between completed and incomplete tasks.
+Summary
+By completing these assignments, you will practice and reinforce the fundamental concepts of JavaScript, including variables, data types, operators, conditionals, loops, and functions. These foundational skills are crucial for advancing to more complex topics and projects in JavaScript.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Additional JavaScript Assignments for Days 1, 2, and 3
+
+#### Day 1: JavaScript Basics
+**Assignment 2: Build a Temperature Converter**
+
+**Objective:**
+Create a simple temperature converter that converts between Celsius and Fahrenheit.
+
+**Requirements:**
+1. **Variables and Data Types:**
+   - Use `let` and `const` to declare variables for storing the temperature values.
+   - Use Numbers for temperature values and Strings for displaying results.
+
+2. **Basic Operators:**
+   - Implement the conversion formulas using arithmetic operators.
+
+**Tasks:**
+1. Create an HTML form with an input field for entering the temperature and a dropdown to select the conversion type (Celsius to Fahrenheit or Fahrenheit to Celsius).
+2. Write a function that takes the input temperature and conversion type, performs the calculation, and displays the result.
+3. Ensure the results are displayed in a clear and formatted manner.
+
+#### Day 2: Control Structures
+**Assignment 2: Build a Simple Quiz App**
+
+**Objective:**
+Create a basic quiz application that evaluates and scores user responses.
+
+**Requirements:**
+1. **Conditionals:**
+   - Use `if`, `else if`, and `else` statements to check answers and calculate the score.
+   - Use a ternary operator to display a message based on the score.
+
+2. **Loops:**
+   - Use a `for` loop to iterate through the questions and answers.
+   - Use a `while` loop to allow the user to retake the quiz.
+
+**Tasks:**
+1. Create an HTML form with multiple-choice questions and radio buttons for answers.
+2. Write a function to evaluate the user's answers and calculate the score using `if-else` statements.
+3. Use a `for` loop to go through the questions and check answers.
+4. Allow the user to retake the quiz by implementing a `while` loop that resets the quiz when a button is clicked.
+
+#### Day 3: Functions
+**Assignment 2: Build a Tip Calculator**
+
+**Objective:**
+Create a tip calculator that calculates the tip based on the bill amount and tip percentage.
+
+**Requirements:**
+1. **Function Declaration and Expression:**
+   - Use function declarations to create functions for calculating the tip and total amount.
+   - Use function expressions for handling events like form submission.
+
+2. **Arrow Functions:**
+   - Use arrow functions for handling event listeners and calculations.
+
+3. **Parameters and Arguments:**
+   - Use default parameters for the tip percentage if not provided by the user.
+   - Use rest parameters to handle multiple bill amounts at once.
+
+**Tasks:**
+1. Create an HTML form with an input field for the bill amount, a dropdown for the tip percentage, and a button to calculate the tip.
+2. Write functions to calculate the tip and the total amount.
+3. Use arrow functions for event listeners that handle form submissions and display the results.
+4. Add some basic styling to format the output, showing the bill amount, tip amount, and total amount.
+
+### Summary
+These additional assignments will further solidify your understanding of JavaScript basics, control structures, and functions. Completing these projects will provide a well-rounded foundation in JavaScript, preparing you for more advanced topics and real-world applications.
