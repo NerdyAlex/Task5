@@ -1,0 +1,23 @@
+.btn{
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(214, 211, 211);
+    background-color: rgb(49, 49, 49);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 120%;
+    font-family: monospace, sans-serif;
+    cursor: pointer;
+}
+
+#display{
+    text-align: center;
+    font-size: 500%;
+    font-family: monospace, sans-serif;
+    color: rgb(59, 211, 59);
+}
+#container{
+    background-color: black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    font-size: 300%;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    background-color: black;
+    
+}
+
+#myclock{
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    border: 5px solid rgb(86, 105, 58);
+    border-radius: 5px;
+    padding: 20px 10px;
+    
+}
