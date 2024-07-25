@@ -21,6 +21,79 @@ margin: 0;
     margin: 0;
     padding: 0;
 } */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
 body{
-    background-size: #fff;
+    background: #1f1e1e;
+    
+}
+
+.card{
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 18px;
+    margin: 130px auto 10px;
+    background: linear-gradient(135deg, rgb(83, 83, 212), rgb(87, 206, 87));
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 12px 20px 12px;
+    font-size: 15px;
+
+}
+.search button{
+    margin-left: 8px;
+    padding: 13px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+}
+.search button img {
+    width: 14px;
+    height: 14px;
+}
+.search button:active{
+    background-color: rgb(201, 201, 201);
+
+}
+
+#info{
+    display: none;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+.humiImg, .windImg {
+    
+    width: 45px;
+    height: 45px;
+    margin-right: 6px;
+}
+
+.humi, .wind{
+
+    display: flex;
+    align-items: center;
+}
+
+#error{
+    margin: 30px;
+    color: whitesmoke;
 }
