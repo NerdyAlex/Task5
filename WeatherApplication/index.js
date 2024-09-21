@@ -56,11 +56,12 @@ async function weathercall() {
 
 
     let data = await weather.json();
+    
     if(data.cod == 200){
         error.style.display = "none"
         humi.textContent = data.main.humidity + "%"
         cityname.textContent = data.name
-        wind.textContent = data.wind.speed + "km/h"
+        wind.textContent = data.wind.speed + "m/s"
         weatherchange(data)
         istemparature(data)
         weatherdiv.style.display = "block"
