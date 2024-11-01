@@ -15,7 +15,7 @@
     color: whitesmoke;
     border-radius: 5px;
     font-weight: bold;
-    background-color: rgb(241, 134, 170);
+    background-color: rgb(236, 3, 81);
     font-size: 20px;
     padding: 12px;
     width: 100px;
@@ -24,6 +24,6 @@
 
 }
 .btn:hover{
-    background-color: rgb(236, 3, 81);
+    background-color: rgb(241, 134, 170);
     transform: translateY(-8px);
 }

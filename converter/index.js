@@ -28,48 +28,53 @@ else onclick coverte to fehrenheit */
     
 // }
 
-let temp = document.getElementById("myinput")
-let mysubmit = document.getElementById("mysubmit")
-let answer = document.getElementById("answer")
 
 
-function isFahr(temp) {
-    temp = 9 / 5 * (temp + 32)
-    return temp
+
+//takes a variabel and covert it to ceilius
+function toC(temp) {
+    return (temp - 32) * 5 / 9 + "°C"
 }
 
-
-function isCeli(temp) {
-    temp = 5 / 9 * (temp - 32)
-    return temp
+// takes a variabel and covert it to Fahrenheit
+function toF(temp) {
+    return (temp * 9 / 5) + 32 + "F"
 }
 
+// create variables to store and use the user data
+
+let input = document.getElementById("input")
+let cel = document.getElementById("cel")
+let feh = document.getElementById("feh")
+let sbtbtn = document.getElementById("sbtbtn")
+let ans = document.getElementById("answer")
 
 
-mysubmit.onclick = function(){
-    let i = 0
-    temp = Number(temp.value)
-    let iscels = document.getElementById("iscels");
-    let isfahr = document.getElementById("isfahr");
-    
-    for(i; i < 10; i+=1){
-        if (iscels.checked) {
-            answer.textContent = Number(isCeli(temp)) + "°C"
-    
-        }
-        else if (isfahr.checked) {
-            answer.textContent = Number(isFahr(temp)) + "°F"
-        
-        }
-        else {
-            answer.textContent = "select a temperature"
-    
-        }
+sbtbtn.onclick = function () {
+    // collect the user input and convert  into whole number and store in new var.
+    let temp = Math.floor(Number(input.value))
+
+    // IF CEL is checked 
+    if (cel.checked) {
+        //call out the toC func and store it
+        let resultc = toC(temp)
+
+        // display it on the docume
+        ans.textContent = resultc
+    }
+    //  if FEH is checked
+    else if (feh.checked) {
+        //call out the tof func and store it in a new var
+        let resultf = toF(temp)
+
+        //display answer on the docum
+        ans.textContent = resultf
 
     }
-    
+    // if nothing is checked
+    else {
+        alert("INPUT A NUMBER, DAMNIT!!")
+    }
 }
-
-
 
 

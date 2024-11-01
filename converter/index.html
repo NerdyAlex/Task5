@@ -8,18 +8,14 @@
 </head>
 <body>
     <h1>Enter a temperature</h1>
-    <input id="myinput" type="text">
-    <p>convert to:</p>
-
-    <input  id="iscels" type="radio" name="degrees">
-    <label for="iscels">Celsius</label><br>
-
-    <input id="isfahr"  name="degrees" type="radio">
-    <label for="isfahr">Fahrenheit</label>
-    <br>
-    <br>
-    <button id="mysubmit">Submit</button>
-    <p id="answer"></p>
+    <input type="text" id="input" placeholder="temp; i.e. 32"><br>
+    
+    <h3>Convert to:</h3>
+    <label><input id="cel" type="radio" name="temps">Ceilius</label><br>
+    <label><input id="feh" type="radio" name="temps">Fahrenheit</label><br>
+    <button id="sbtbtn">Submit</button><br>
+    
+    <label id="answer"></label>
 
 
     <script src="index.js"></script>
